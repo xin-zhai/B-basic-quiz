@@ -12,7 +12,7 @@ public class UserService {
     private Map<Integer, User> userMap= new HashMap<>();
 
     public UserService() {
-        userMap.put(1, new User(1, "zx", 20, "https://lh3.googleusercontent.com/proxy/J2j7_MpOZ0KbaD1-_W7MZXcgP1LEXNptkiZYZ1yAAomR9QzS0IxOs6e-kVI7wgeEBZ_wmZC68JIu3mwTLK21HkQmRseS6skx3Q4ADkoAAHULqCw11WtXK7M", "like something"));
+        userMap.put(1, new User(1, "zx", 20, "https://lh3.googleusercontent.com/proxy/eGwXKWXbarNoGffdwqUrulm2ygcFn2YcVEes9GP2y0Rrmwy9wfU9RFNQqNd6TA1vqh3wFSQgarkSWhJmxOV3wkc6a43mVrgiBuwmCtK85FTmPzHqGgtklow", "like something"));
     }
 
     public User findUserById(Integer id) {
